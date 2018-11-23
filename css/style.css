@@ -39,9 +39,6 @@ p{
 	h1{
 		font-size:42px;
 	}
-	p{
-		
-	}
 	h3{
 		font-size:18px;
 	}
@@ -61,7 +58,6 @@ p{
 		line-height:21px;
 	}
 }
-
 .arrow{
  position: absolute;
 }
@@ -73,7 +69,6 @@ p{
 	color:#669999;
 	text-decoration:underline;
 }
-
 .pixel-divider{
 	background-color:#1C3330;
 	width:4px;
