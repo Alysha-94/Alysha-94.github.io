@@ -46,7 +46,7 @@ p{
 		font-size:18px;
 	}
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 400px) {
 	h1{
 		font-size:40px;
 	}
@@ -182,9 +182,6 @@ img.down2:hover{
 	#me-picture{
 		margin-top:25px;
 	}
-	#section2 p{
-		width:90%;
-	}
 }
 
 #section3{
@@ -231,9 +228,6 @@ img.down3{
 	img.down3{
 		top: 1750px;
 	}
-	#project-text{
-		margin-top:25px;
-	}
 }
 @media screen and (max-width: 650px) {	
 	#section3 p, #web-img{
@@ -241,7 +235,6 @@ img.down3{
 	}
 	#project-text{
 		font-size: 18px;
-		margin-top:50px;
 	}
 }
 
