@@ -12,7 +12,7 @@ h2{
 	font-family: 'Alegreya Sans', sans-serif;
 	font-weight:normal;
 	font-size: 20px;
-	color:#333333;
+	color:#1f2f2f;
 	font-style:italic;
 }
 h3{
@@ -20,7 +20,7 @@ h3{
 	font-family: 'Alegreya Sans SC', sans-serif;
 	font-weight:normal;
 	font-size:20px;
-	color:#333333;
+	color:#1f2f2f;
 	display:inline-block;
 }
 p{
@@ -28,7 +28,7 @@ p{
 	font-size:16px;
 	line-height:24px;
 	display:inline-block;
-	color:#1C3330;
+	color:#1f2f2f;
 }
 @media screen and (max-width: 1000px) {
 	h1{
@@ -62,7 +62,7 @@ p{
  position: absolute;
 }
 .down1, .down2, .down3, .down4{
-	color:#333333;
+	color:#1f2f2f;
 }
 .down1:hover, .down2:hover, .down3:hover, .down4:hover, .down5:hover, .down6:hover{
 	cursor:pointer;
@@ -70,7 +70,7 @@ p{
 	text-decoration:underline;
 }
 .pixel-divider{
-	background-color:#1C3330;
+	background-color:#1f2f2f;
 	width:4px;
 	height:4px;
 	display:inline-block;
@@ -79,7 +79,7 @@ p{
 	margin-right:10px;
 }
 .pixel-divider-bottom{
-	background-color:#1C3330;
+	background-color:#1f2f2f;
 	width:4px;
 	height:4px;
 	display:inline-block;
@@ -115,19 +115,19 @@ img.down1{
 	}
 }
 #first-name{
-	color:#1C3330;
-	border-top: 1px solid #1C3330;
-	border-bottom: 1px solid #1C3330;
+	color:#1f2f2f;
+	border-top: 1px solid #1f2f2f;
+	border-bottom: 1px solid #1f2f2f;
 }
 #last-name{
 	color:#476b6b;
-	border-top: 1px solid #1C3330;
-	border-bottom: 1px solid #1C3330;
+	border-top: 1px solid #1f2f2f;
+	border-bottom: 1px solid #1f2f2f;
 }
 
 #section2{
 	height: 100vh;
-	background-color: #e7efef;
+	background-color: #dbe7e7;
 	/* #f1f0ee */
 	display: flex;
 	flex-direction: column;
@@ -181,7 +181,7 @@ img.down2:hover{
 
 #section3{
 	height: 100vh;
-	background-color: #F7C35B;
+	background-color: #F8d573;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -236,7 +236,7 @@ img.down3{
 
 #section4{
 	height: 100vh;
-	background-color: #FAE5B9;
+	background-color: #e7efef;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -308,7 +308,7 @@ img.down4{
 }
 #section5{
 	height: 100vh;
-	background-color: #F7C35B;
+	background-color: #F7CE5B;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
