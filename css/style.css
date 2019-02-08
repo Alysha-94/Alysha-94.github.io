@@ -69,6 +69,9 @@ p{
 	color:#669999;
 	text-decoration:underline;
 }
+#me:hover{
+    cursor:pointer;
+}
 .pixel-divider{
 	background-color:#1f2f2f;
 	width:4px;
@@ -125,16 +128,16 @@ img.down1{
 	border-bottom: 1px solid #1f2f2f;
 }
 
-#section2{
-	height: 100vh;
-	background-color: #dbe7e7;
-	/* #f1f0ee */
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: start;
-	background-size: cover;
-	min-width:300px;
+#section2 {
+    height: 100vh;
+    background-color: #dbe7e7;
+    /* #f1f0ee */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-size: cover;
+    min-width: 300px;
 }
 #me-picture{
 	margin-top:50px;
@@ -179,15 +182,15 @@ img.down2:hover{
 	}
 }
 
-#section3{
-	height: 100vh;
-	background-color: #F8d573;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: start;
-	background-size: cover; 
-	min-width:300px;
+#section3 {
+    height: 100vh;
+    background-color: #F8d573;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-size: cover;
+    min-width: 300px;
 }
 #project-text{
 	font-family: 'Alegreya Sans SC', sans-serif;
@@ -233,14 +236,13 @@ img.down3{
 	}
 }
 
-
 #section4{
 	height: 100vh;
 	background-color: #e7efef;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: start;
+	justify-content: flex-start;
 	background-size: cover; 
 	min-width:300px;
 }
@@ -306,15 +308,15 @@ img.down4{
 	min-width:100px;
 	}
 }
-#section5{
-	height: 100vh;
-	background-color: #F7CE5B;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: start;
-	background-size: cover; 
-	min-width:300px;
+#section5 {
+    height: 100vh;
+    background-color: #F7CE5B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-size: cover;
+    min-width: 300px;
 }
 #game-img{
 	min-width:250px;
@@ -348,15 +350,15 @@ img.down5{
 	}
 }
 
-#section6{
-	height: 40vh;
-	background-color: #f3f7f7;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: start;
-	background-size: cover; 
-	min-width:300px;
+#section6 {
+    height: 40vh;
+    background-color: #f3f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-size: cover;
+    min-width: 300px;
 }
 img.down6{
 	top:530vh;

@@ -1,11 +1,29 @@
-//window.onbeforeunload = function () {
-  //window.scrollTo(0, 0);
-//}
-$(document).ready( function () {
+function scrollToOne() {
+    var point = document.getElementById('section1');
+    point.scrollIntoView({ behavior: 'smooth' });
+}
+function scrollToTwo() {
+    var point = document.getElementById('section2');
+    point.scrollIntoView({ behavior: 'smooth' });
+}
+function scrollToThree() {
+    var point = document.getElementById('section3');
+    point.scrollIntoView({ behavior: 'smooth' });
+}
+function scrollToFour() {
+    var point = document.getElementById('section4');
+    point.scrollIntoView({ behavior: 'smooth' });
+}
+function scrollToFive() {
+    var point = document.getElementById('section5');
+    point.scrollIntoView({ behavior: 'smooth' });
+}
+function scrollToSix() {
+    var point = document.getElementById('section6');
+    point.scrollIntoView({ behavior: 'smooth' });
+}
+/*$(document).ready(function () {
 	$('.down1').on('click',function () {
-	//$('body, html').animate({ scrollTop: 0 }, 'slow');
-	//$("html").scrollTop(0);
-	//$(this).addClass("animated fadeOutUp");
 		$('html, body').animate({
 		scrollTop: $("#section2").offset().top
 	}, 1000);
@@ -36,3 +54,4 @@ $(document).ready( function () {
 	}, 1000);
 	});
 });
+*/
