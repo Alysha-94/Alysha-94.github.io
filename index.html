@@ -16,75 +16,123 @@
         </div>
         <h2>Web Developer & Designer</h2>
         <div id="links">
-            <h3 class="down1" onclick="scrollToTwo();">About</h3><div class="pixel-divider"></div><h3 class="down2" onclick="scrollToThree();">Projects</h3><div class="pixel-divider"></div><h3 class="down5" onclick="scrollToSix();">Contact</h3>
+            <h3 class="down1" onclick="scrollToTwo();">About</h3><div class="pixel-divider"></div>
+            <h3 class="down2" onclick="scrollToThree();">Skills</h3><div class="pixel-divider"></div>
+            <h3 class="down3" onclick="scrollToFour();">Projects</h3><div class="pixel-divider"></div>
+            <h3 class="down6" onclick="scrollToSeven();">Contact</h3>
         </div>
         <img class="down1 arrow" alt="down arrow" onclick="scrollToTwo();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
     <div id="section2">
-        <img id="me-picture" alt="Alysha" src="images/me-sun.png" width="25%" height="auto">
-        <p>
-            I'm a self-taught developer from Moonee Ponds, Melbourne.
-            I have a design background and decided to switch into software development where I found
-            a perfect middle ground between creativity and logic. I enjoy both the problem-solving side
-            of programming as well as being able to create unique user experiences and responsive designs.
-            My main focus is web development with HTML, CSS, JavaScript and jQuery, as well as PHP and
-            SQL to build functional web-applications. I've also built android apps with Java, and games
-            with Unity and C#.
-        </p>
+        <img id="me-picture" alt="Alysha" src="images/me-sun.png" width="20%" height="auto">
+        <p id="about-content">
+            Hello! I'm a self-taught developer from Melbourne.
+            I have a design background and switched into software development where I found a perfect middle ground between creativity and logic.
+            Software has always been a big part of my life and user interfaces and interactions are something I deal with day to day, from playing
+            video games to communicating over the World Wide Web. I started learning to code two years ago while building a small game and once I
+            started, I have never been bored again. Being able to grow up alongside and watch technology change over time is mind-blowing, and a
+            big inspiration as to why I want to be involved with learning how it works.
+            <!--I focus in web development with HTML, CSS and JavaScript, as well as React and TypeScript. I also love the simplicity and power of 
+            Python, and have built android apps with Java, and games with Unity and C#.-->
+        </p>        
         <img class="down2 arrow" alt="down arrow" onclick="scrollToThree();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
     <div id="section3">
-        <h4 id="project-text">Davaly Design Website</h4>
-        <img id="web-img" alt="Website project" src="images/web650x290.gif" width="50%">
-        <p>
-            I designed and developed a functional website for a small business, Davaly design.
-            I went for a minimal style to suit the brand using black and white to make the site stand out,
-            I also had fun manipulating the logo to make an SVG animation. I used HTML, CSS and JavaScript
-            for the front-end design and implemented a database with PHP and SQL for admin users to easily
-            be able to upload, modify and delete products to dynamically update and display in the front-end
-            of the website.
-        </p>
+        <h4 id="project-text">Skills</h4>
+        <p>I focus in front-end web development and enjoy building games in my spare time, these are my proficient skills:</p>
+        <br />
+        <div id="skills">
+            <p class="skill">HTML</p><div class="pixel-divider"></div>
+            <p class="skill">CSS</p><div class="pixel-divider"></div>
+            <p class="skill">JavaScript</p><div class="pixel-divider"></div>
+            <p class="skill">React</p><div class="pixel-divider"></div>
+            <p class="skill">TypeScript</p><div class="pixel-divider"></div>
+            <p class="skill">JQuery</p><div class="pixel-divider"></div>
+            <p class="skill">PHP</p><div class="pixel-divider"></div>
+            <p class="skill">SQL</p><div class="pixel-divider"></div>
+            <p class="skill">Python</p><div class="pixel-divider"></div>
+            <p class="skill">C#</p><div class="pixel-divider"></div>
+            <p class="skill">Java</p><div class="pixel-divider"></div>
+            <p class="skill">Unity</p><div class="pixel-divider"></div>
+            <p class="skill">Android Studio</p><div class="pixel-divider"></div>
+            <p class="skill">Git</p><div class="pixel-divider"></div>
+            <p class="skill">UI/ UX Design</p><div class="pixel-divider"></div>
+            <p class="skill">Responsive Design</p><div class="pixel-divider"></div>
+            <p class="skill">Adobe Illustrator/ Photoshop</p>
+        </div>
+        <br />
+        <p>I actively search for new languages, tools and technologies to level up my knowlegde.</p>
+        <!--<ul style="display:inline-block" id="skillsul">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>JQuery</li>
+            <li>PHP</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>C#</li>
+            <li>Java</li>
+            <li>Git</li>
+            <li>UI/ UX Design</li>
+            <li>Responsive Design</li>
+            <li>Adobe Illustrator/ Photoshop</li>
+        </ul>-->
         <img class="down3 arrow" alt="down arrow" onclick="scrollToFour();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
-    <div id="section4">
-        <h4 id="project-text">Tamil Learning App</h4>
-        <div id="app">
-            <img alt="App project" src="images/app250x415.gif" width="40%">
+        <div id="section4">
+            <h4 id="project-text">Davaly Design Website</h4>
+            <img id="web-img" alt="Website project" src="images/web650x290.gif" width="50%">
             <p>
-                This is an app I developed in a small team, the client wanted a fun learning app to assist
-                children with the Tamil language. There are four categories each with a selection of words to learn.
-                I implemented a canvas to allow users to trace over the word and learn to write, as well as an attached
-                sound file to hear the word being spoken.
+                I designed and developed a functional website for a small business, Davaly design.
+                I went for a minimal style to suit the brand using black and white to make the site stand out,
+                I also had fun manipulating the logo to make an SVG animation. I used HTML, CSS and JavaScript
+                for the front-end design and implemented a database with PHP and SQL for admin users to easily
+                be able to upload, modify and delete products to dynamically update and display in the front-end
+                of the website.
             </p>
+            <img class="down4 arrow" alt="down arrow" onclick="scrollToFive();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
         </div>
-        <img class="down4 arrow" alt="down arrow" onclick="scrollToFive();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
-    </div>
-    <div id="section5">
-        <h4 id="project-text">Shadow Fish Game</h4>
-        <img id="game-img" alt="Game project" src="images/game600x335.gif" width="50%">
-        <p>
-            My fianc&eacute;, his little brother and I made an endless runner for a 48-hour game making challenge.
-            We missed the one happening in Melbourne so we set out a weekend to try it ourselves and were able to develop
-            our idea from concept to completed game. We used Unity engine with C#, all the artwork and sound effects were done by
-            Ethan, and my fianc&eacute; and I programmed it. I was involved with the programming and worked on a lot of the
-            key-frame animations.
-        </p>
-        <img class="down5 arrow" alt="down arrow" onclick="scrollToSix();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
-    </div>
-    <div id="section6">
-        <h2 id="contact-text">Thanks for visiting! Get in touch :)</h2>
-        <div id="footer-links">
-            <a title="Alysha's LinkedIn" href="https://www.linkedin.com/in/alysha-iannetta/"><img width="32" alt="Linkedin logo" src="images/linkedin-logo.png" /></a>
-            <div class="pixel-divider-bottom"></div>
-            <a title="Alysha's GitHub" href="https://github.com/Alysha-94"><img class="footer-links" width="28" alt="GitHub logo" src="images/github-logo.png" /></a>
-            <div class="pixel-divider-bottom"></div>
-            <a title="Send an email" href="mailto:alysha.iannetta@gmail.com"><img width="32" alt="Send email image" src="images/send-email.png" /></a>
+        <div id="section5">
+            <h4 id="project-text">Tamil Learning App</h4>
+            <div id="app">
+                <img alt="App project" src="images/app250x415.gif" width="40%">
+                <p>
+                    This is an app I developed in a small team, the client wanted a fun learning app to assist
+                    children with the Tamil language. There are four categories each with a selection of words to learn.
+                    I implemented a canvas to allow users to trace over the word and learn to write, as well as an attached
+                    sound file to hear the word being spoken. We used Android Studio with Java.
+                </p>
+            </div>
+            <img class="down5 arrow" alt="down arrow" onclick="scrollToSix();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
         </div>
-        <img class="down6 arrow" alt="up arrow" onclick="scrollToOne();" title="Back to top" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
-    </div>
-    <script src="js/scroll.js" type="text/javascript"></script>
-    <script src="js/flip.js" type="text/javascript"></script>
-    <script src="js/jump.js" type="text/javascript"></script>
-    <script src="js/hover.js" type="text/javascript"></script>
+        <div id="section6">
+            <h4 id="project-text">Shadow Fish Game</h4>
+            <img id="game-img" alt="Game project" src="images/game600x335.gif" width="50%">
+            <p>
+                My fianc&eacute;, his little brother and I made an endless runner for a 48-hour game making challenge.
+                We missed the one happening in Melbourne so we set out a weekend to try it ourselves and were able to develop
+                our idea from concept to completed game. We used Unity engine with C#, all the artwork and sound effects were done by
+                Ethan, and my fianc&eacute; and I programmed it. I was involved with the programming and worked on a lot of the
+                key-frame animations.
+            </p>
+            <img class="down6 arrow" alt="down arrow" onclick="scrollToSeven();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
+        </div>
+        <div id="section7">
+            <h2 id="contact-text">Thanks for visiting! Get in touch :)</h2>
+            <div id="footer-links">
+                <a title="Alysha's LinkedIn" href="https://www.linkedin.com/in/alysha-iannetta/"><img width="32" alt="Linkedin logo" src="images/linkedin-logo.png" /></a>
+                <div class="pixel-divider-bottom"></div>
+                <a title="Alysha's GitHub" href="https://github.com/Alysha-94"><img class="footer-links" width="28" alt="GitHub logo" src="images/github-logo.png" /></a>
+                <div class="pixel-divider-bottom"></div>
+                <a title="Send an email" href="mailto:alysha.iannetta@gmail.com"><img width="32" alt="Send email image" src="images/send-email.png" /></a>
+            </div>
+            <img class="down7 arrow" alt="up arrow" onclick="scrollToOne();" title="Back to top" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
+        </div>
+        <script src="js/scroll.js" type="text/javascript"></script>
+        <script src="js/flip.js" type="text/javascript"></script>
+        <script src="js/jump.js" type="text/javascript"></script>
+        <script src="js/hover.js" type="text/javascript"></script>
 </body>
 </html>

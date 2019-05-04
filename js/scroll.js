@@ -22,3 +22,7 @@ function scrollToSix() {
     var point = document.getElementById('section6');
     point.scrollIntoView({ behavior: 'smooth' });
 }
+function scrollToSeven() {
+    var point = document.getElementById('section7');
+    point.scrollIntoView({ behavior: 'smooth' });
+}
