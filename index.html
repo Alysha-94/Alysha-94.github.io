@@ -16,69 +16,67 @@
         </div>
         <h2>Web Developer & Designer</h2>
         <div id="links">
-            <h3 class="down1" onclick="scrollToTwo();">About</h3><div class="pixel-divider"></div><h3 class="down2" onclick="scrollToThree();">Folio</h3><div class="pixel-divider"></div><h3 class="down5" onclick="scrollToSix();">Contact</h3>
+            <h3 class="down1" onclick="scrollToSection('2');">About</h3><div class="pixel-divider"></div>
+            <h3 class="down2" onclick="scrollToSection('3');">Folio</h3><div class="pixel-divider"></div>
+            <h3 class="down3" onclick="scrollToSection('9');">Contact</h3>
         </div>
-        <img class="down1 arrow" alt="down arrow" onclick="scrollToTwo();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
+        <img class="down1 arrow" alt="down arrow" onclick="scrollToSection('2');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
     <div id="section2">
-        <img id="me-picture" alt="Alysha" src="images/me-sun.png" width="25%" height="auto">
+        <img id="me-picture" alt="Alysha" src="images/me-sun.png">
         <p>
             Hello! I'm a self-taught developer from Melbourne.<br />
-            I have a design background and switched into software development where I found a perfect middle
-            ground between creativity and logic. I enjoy both the problem-solving side of programming as well
-            as being able to create unique user experiences and responsive designs. I focus in web development
-            with HTML, CSS and JavaScript, as well as React and TypeScript. I also love the simplicity and power
-            of Python, and have built android apps with Java, and games with Unity and C#.
+            I enjoy bringing my design experience to software development, I am a visual thinker and am inspired 
+            by the endless possibilities and creative freedom involved with building software. I enjoy creating visuals and
+            technical diagrams to better understand topics, and focus in web development with HTML, CSS and JavaScript, as well 
+            as React and TypeScript. I also love the simplicity and power of Python, and have built android apps with Java, 
+            and games with Unity and C#.
         </p>
-        <img class="down2 arrow" alt="down arrow" onclick="scrollToThree();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
+        <img class="down2 arrow" alt="down arrow" onclick="scrollToSection('3');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
 
     <div id="section3">
         <h4 id="project-text">PyCon Poster</h4>
-        <img id="web-img" alt="Website project" src="images/pycon-poster.png" />
-        <p>An infographic poster made for PyCon US 2019. Have a closer look at the PDF <a href="images/CPythonMemoryStructurePosterJanisLesinskisAlyshaIannetta2019.pdf">here</a></p>
-        <img class="down3 arrow" alt="down arrow" onclick="scrollToFour();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
+        <img id="web-img" alt="Website project" src="images/pycon-poster600x450.png" />
+        <p>An infographic poster made for PyCon US 2019. Have a closer look at the PDF 
+        <a href="images/CPythonMemoryStructurePosterJanisLesinskisAlyshaIannetta2019.pdf">here</a></p>
+        <img class="down3 arrow" alt="down arrow" onclick="scrollToSection('4');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
-
-    <!--<div id="section3">
-        <h4 id="project-text">Davaly Design Website</h4>
-        <img id="web-img" alt="Website project" src="images/web650x290.gif" width="50%">
-        <p>
-            I designed and developed a functional website for a small business, Davaly design.
-            I went for a minimal style to suit the brand using black and white to make the site stand out,
-            I also had fun manipulating the logo to make an SVG animation. I used HTML, CSS and JavaScript
-            for the front-end design and implemented a database with PHP and SQL for admin users to easily
-            be able to upload, modify and delete products to dynamically update and display in the front-end
-            of the website.
-        </p>
-        <img class="down3 arrow" alt="down arrow" onclick="scrollToFour();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
-    </div>-->
     <div id="section4">
-        <h4 id="project-text">Tamil Learning App</h4>
-        <div id="app">
-            <img alt="App project" src="images/python-asyncio-code-example.png" width="40%">
-            <p>
-                This is an app I developed in a small team, the client wanted a fun learning app to assist
-                children with the Tamil language. There are four categories each with a selection of words to learn.
-                I implemented a canvas to allow users to trace over the word and learn to write, as well as an attached
-                sound file to hear the word being spoken.
-            </p>
-        </div>
-        <img class="down4 arrow" alt="down arrow" onclick="scrollToFive();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
+        <h4 id="project-text">Asyncio Event Loop</h4>
+        <img id="web-img" alt="Website project" src="images/python-asyncio-event-loop.png" />
+        <p>An infographic poster about the event loop in Python Asyncio. Have a closer look at the PDF 
+        <a href="images/python-asyncio-event-loop.pdf">here</a></p>
+        <img class="down4 arrow" alt="down arrow" onclick="scrollToSection('5');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
     <div id="section5">
-        <h4 id="project-text">Shadow Fish Game</h4>
-        <img id="game-img" alt="Game project" src="images/python-asyncio-event-loop.png" width="50%">
-        <p>
-            My fianc&eacute;, his little brother and I made an endless runner for a 48-hour game making challenge.
-            We missed the one happening in Melbourne so we set out a weekend to try it ourselves and were able to develop
-            our idea from concept to completed game. We used Unity engine with C#, all the artwork and sound effects were done by
-            Ethan, and my fianc&eacute; and I programmed it. I was involved with the programming and worked on a lot of the
-            key-frame animations.
-        </p>
-        <img class="down5 arrow" alt="down arrow" onclick="scrollToSix();" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
+        <h4 id="project-text">Asyncio Code Example</h4>
+        <img id="web-img" alt="Website project" src="images/python-asyncio-code-example.png" />
+        <p>An infographic poster with a code example for the Python Asyncio event loop. Have a closer look at the PDF 
+        <a href="images/python-asyncio-code-example.pdf">here</a></p>
+        <img class="down5 arrow" alt="down arrow" onclick="scrollToSection('6');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
     <div id="section6">
+        <h4 id="project-text">Davaly Design Website</h4>
+        <img id="web-img" alt="Website project" src="images/web650x290.gif">
+        <p>Dynamic product website</p>
+        <img class="down6 arrow" alt="down arrow" onclick="scrollToSection('7');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
+    </div>
+    <div id="section7">
+        <h4 id="project-text">Tamil Learning App</h4>
+        <div id="app">
+            <img alt="App project" src="images/app250x415.gif">
+            <p>Learning app for the Tamil language</p>
+        </div>
+        <img class="down7 arrow" alt="down arrow" onclick="scrollToSection('8');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
+    </div>
+    <div id="section8">
+        <h4 id="project-text">Shadow Fish Game</h4>
+        <img id="game-img" alt="Game project" src="images/game600x335.gif">
+        <p>Small game for a two day game making challenge</p>
+        <img class="down8 arrow" alt="down arrow" onclick="scrollToSection('9');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
+    </div>
+    <div id="section9">
         <h2 id="contact-text">Thanks for visiting! Get in touch :)</h2>
         <div id="footer-links">
             <a title="Alysha's LinkedIn" href="https://www.linkedin.com/in/alysha-iannetta/"><img width="32" alt="Linkedin logo" src="images/linkedin-logo.png" /></a>
@@ -87,7 +85,7 @@
             <div class="pixel-divider-bottom"></div>
             <a title="Send an email" href="mailto:alysha.iannetta@gmail.com"><img width="32" alt="Send email image" src="images/send-email.png" /></a>
         </div>
-        <img class="down6 arrow" alt="up arrow" onclick="scrollToOne();" title="Back to top" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
+        <img class="down9 arrow" alt="up arrow" onclick="scrollToSection('1');" title="Back to top" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
     <script src="js/scroll.js" type="text/javascript"></script>
     <script src="js/flip.js" type="text/javascript"></script>
