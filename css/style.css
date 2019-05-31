@@ -202,8 +202,9 @@ img.down2:hover{
 	color:#476b6b;
 }
 #web-img{
+    width:100%;
 	min-width:250px;
-	max-width:650px;
+	max-width:600px;
 }
 #section3 p{
 	margin-top:10px;
