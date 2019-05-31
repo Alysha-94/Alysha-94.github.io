@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="initial-scale=1" charset="UTF-8">
-	<title>Alysha Iannetta</title>
-	<link rel="icon" href="images/pixel-square.png">
-	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Alegreya+Sans:400i|Muli" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="initial-scale=1" charset="UTF-8">
+    <title>Alysha Iannetta</title>
+    <link rel="icon" href="images/pixel-square.png">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Alegreya+Sans:400i|Muli" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/flip.js" type="text/javascript"></script>
 </head>
- 
 <body>
     <div id="section1" onmousemove="flip(event);">
         <img id="me" alt="Pixel Alysha" src="images/pixel-me.png" width="50" height="75">
@@ -34,44 +34,43 @@
         </p>
         <img class="down2 arrow" alt="down arrow" onclick="scrollToSection('3');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
-
     <div id="section3">
-        <h4 id="project-text">PyCon Poster</h4>
-        <img id="web-img" alt="Website project" src="images/pycon-poster600x450.png" />
-        <p>An infographic poster made for PyCon US 2019. Have a closer look at the PDF 
-        <a href="images/CPythonMemoryStructurePosterJanisLesinskisAlyshaIannetta2019.pdf">here</a></p>
+        <h4 class="project-text">PyCon Poster</h4>
+        <img class="poster-img" alt="Website project" src="images/pycon-poster600x450.png" />
+        <p class="poster-text">An infographic poster made for PyCon US 2019. Have a look at the  
+        <a href="images/CPythonMemoryStructurePosterJanisLesinskisAlyshaIannetta2019.pdf">PDF</a></p>
         <img class="down3 arrow" alt="down arrow" onclick="scrollToSection('4');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
     <div id="section4">
-        <h4 id="project-text">Asyncio Event Loop</h4>
-        <img id="web-img" alt="Website project" src="images/python-asyncio-event-loop.png" />
-        <p>An infographic poster about the event loop in Python Asyncio. Have a closer look at the PDF 
-        <a href="images/python-asyncio-event-loop.pdf">here</a></p>
+        <h4 class="project-text">Asyncio Event Loop</h4>
+        <img class="poster-img" alt="Website project" src="images/python-asyncio-event-loop.png" />
+        <p class="poster-text">An infographic poster about the event loop in Python Asyncio. Have a closer look at the  
+            <a href="images/python-asyncio-event-loop.pdf">PDF</a></p>
         <img class="down4 arrow" alt="down arrow" onclick="scrollToSection('5');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
     <div id="section5">
-        <h4 id="project-text">Asyncio Code Example</h4>
-        <img id="web-img" alt="Website project" src="images/python-asyncio-code-example.png" />
-        <p>An infographic poster with a code example for the Python Asyncio event loop. Have a closer look at the PDF 
-        <a href="images/python-asyncio-code-example.pdf">here</a></p>
+        <h4 class="project-text">Asyncio Code Example</h4>
+        <img class="poster-img" alt="Website project" src="images/python-asyncio-code-example.png" />
+        <p class="poster-text">An infographic poster with a code example for the Python Asyncio event loop. Have a closer look at the 
+        <a href="images/python-asyncio-code-example.pdf">PDF</a></p>
         <img class="down5 arrow" alt="down arrow" onclick="scrollToSection('6');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
     <div id="section6">
-        <h4 id="project-text">Davaly Design Website</h4>
+        <h4 class="project-text">Davaly Design Website</h4>
         <img id="web-img" alt="Website project" src="images/web650x290.gif">
         <p>Dynamic product website</p>
         <img class="down6 arrow" alt="down arrow" onclick="scrollToSection('7');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
     <div id="section7">
-        <h4 id="project-text">Tamil Learning App</h4>
+        <h4 class="project-text">Tamil Learning App</h4>
         <div id="app">
-            <img alt="App project" src="images/app250x415.gif">
+            <img id="app-img" alt="App project" src="images/app250x415.gif">
             <p>Learning app for the Tamil language</p>
         </div>
         <img class="down7 arrow" alt="down arrow" onclick="scrollToSection('8');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
     <div id="section8">
-        <h4 id="project-text">Shadow Fish Game</h4>
+        <h4 class="project-text">Shadow Fish Game</h4>
         <img id="game-img" alt="Game project" src="images/game600x335.gif">
         <p>Small game for a two day game making challenge</p>
         <img class="down8 arrow" alt="down arrow" onclick="scrollToSection('9');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
@@ -88,7 +87,6 @@
         <img class="down9 arrow" alt="up arrow" onclick="scrollToSection('1');" title="Back to top" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
     </div>
     <script src="js/scroll.js" type="text/javascript"></script>
-    <script src="js/flip.js" type="text/javascript"></script>
     <script src="js/jump.js" type="text/javascript"></script>
     <script src="js/hover.js" type="text/javascript"></script>
 </body>
