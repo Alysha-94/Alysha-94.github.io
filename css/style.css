@@ -22,12 +22,13 @@ h3{
 	color:#1f2f2f;
 	display:inline-block;
 }
-p{
-	font-family:'Muli', sans-serif;
-	font-size:16px;
-	line-height:24px;
-	display:inline-block;
-	color:#1f2f2f;
+p {
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #1f2f2f;
 }
 .project-text {
     font-family:'Alegreya Sans SC', sans-serif;
@@ -154,8 +155,15 @@ p{
 .poster-img, .poster-text, #web-img, #section6 p, #game-img, #section8 p {
     width: 100%;
     height: auto;
-    max-width: 600px;
+    max-width: 800px;
     min-width: 250px;
+}
+.padding {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .poster-text a {
     color: #476b6b;
@@ -166,7 +174,7 @@ p{
 #app {
     display: flex;
     flex-direction: row;
-    width: 40%;
+    /*width: 40%;*/
     align-items: center;
     justify-content: center;
 } 
@@ -211,6 +219,12 @@ img.down9 {
     transform: scaleY(-1);
 }
 
+@media screen and (max-height: 780px) {
+    .poster-img, .poster-text, #section6 p, #web-img, #section8 p, #game-img {
+        max-width: 600px;
+    }
+}
+
 @media screen and (max-height: 600px) {
     #section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8 {
         height: 600px;
@@ -220,7 +234,7 @@ img.down9 {
         height: 200px;
     }
 
-    .poster-img, .poster-text {
+    .poster-img, .poster-text, #section6 p, #web-img, #section8 p, #game-img {
         width: 500px;
     }
 
@@ -259,54 +273,60 @@ img.down9 {
     img.down9 {
         top: 4950px;
     }
+
     #contact-text {
         margin-top: 25px;
     }
 }
 
-@media screen and (max-width: 1000px) {
-    #section2 p {
-        width: 70%;
+    @media screen and (max-width: 1000px) {
+        #section2 p {
+            width: 70%;
+        }
+
+        .poster-img, .poster-text, #section6 p, #web-img, #section8 p, #game-img {
+            width: 90%;
+        }
+
+        #app {
+            flex-direction: column;
+            /*width: 60%;*/
+        }
+
+            #app p {
+                margin-top: 10px;
+                text-align: center;
+                width: 100%;
+            }
     }
-    .poster-img, .poster-text, #section6 p, #web-img, #section8 p, #game-img {
-        width: 60%;
-    }
-    #app {
+
+    @media screen and (max-width: 650px) {
+        #me-picture {
+            width: 25%;
+        }
+
+        #section2 p {
+            width: 90%;
+        }
+
+        #project-text {
+            font-size: 18px;
+        }
+
+        /*.poster-img, .poster-text, #section6 p, #web-img, #section8 p, #game-img {
+            width: 80%;
+        }*/
+        /*#app {
         flex-direction: column;
-        width: 60%;
-    }
-    #app-img {
-        max-width: 150px;
-    }
-    #app p {
-        margin-top: 10px;
-        text-align:center;
-        width: 100%;
-    }
-}
-@media screen and (max-width: 650px) {
-    #me-picture {
-        width:175px;
-    }
-    #section2 p {
-        width: 90%;
-    }
-    #project-text {
-        font-size: 18px;
-    }
-    .poster-img, .poster-text, #section6 p, #web-img, #section8 p, #game-img {
         width: 80%;
-    }
-    #app {
-        flex-direction: column;
-        width: 80%;
-    }
-    #app-img {
+    }*/
+        /*#app-img {
         min-width: 125px;
+    }*/
     }
-}
-@media screen and (max-width: 400px) {
-    #app img {
-        min-width: 100px;
+
+    @media screen and (max-width: 400px) {
+        /*#app img {
+        max-width: 150px;
+    }*/
     }
-}
