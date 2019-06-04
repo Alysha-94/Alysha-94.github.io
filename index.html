@@ -90,7 +90,13 @@
         <div id="section6">
             <div class="padding">
                 <h4 class="project-text">Davaly Design Website</h4>
-                <img id="web-img" alt="Website project" src="images/web650x290.gif">
+                <img id="web-img" srcset="images/web400x225.gif 400w,
+                 images/web600x337.gif 600w,
+                 images/web800x450.gif 800w"
+                     sizes="(max-width: 400px) 360px,
+                (max-width: 600px) 560px,
+                800px"
+                     src="images/web800x450.gif" alt="website gif">
                 <p>Dynamic product website</p>
             </div>
             <img class="down6 arrow" alt="down arrow" onclick="scrollToSection('7');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
