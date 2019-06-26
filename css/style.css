@@ -142,7 +142,6 @@ p {
     border-bottom: 1px solid #1f2f2f;
 }
 #me-picture {
-    width:100%;
     height:auto;
     min-width: 175px;
     max-width: 250px;
