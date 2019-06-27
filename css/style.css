@@ -262,6 +262,7 @@ img.down3{
 #app img {
     min-width: 150px;
     max-width: 250px;
+    width:40%;
     height: auto;
 }
 #app p {
@@ -288,9 +289,6 @@ img.down4{
 		width:60%;
 		margin-top:0px;
 	}
-    #app img {
-        max-width: 150px;
-    }
 	#app p{
 		margin-top:10px;
 		width:100%;
@@ -302,18 +300,9 @@ img.down4{
 		flex-direction: column;
 		width:80%;
 	}
-	#app img{
-		min-width:125px;
-	}
 	#app p{
 		margin-top:10px;
 		width:100%;
-	}
-}
-
-@media screen and (max-width: 330px) {
-	#app img{
-	min-width:100px;
 	}
 }
 #section5 {
