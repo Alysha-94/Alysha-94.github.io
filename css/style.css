@@ -267,9 +267,16 @@ img.down9 {
 
 @media screen and (max-height: 780px) {
     .poster-img, .poster-text, #section6 p, #web-img, #app, #game-img, #section8 p {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .poster-img, .poster-text, #section6 p, #web-img, #app, #game-img, #section8 p {
         max-width: 400px;
     }
 }
+
 
 @media screen and (max-height: 500px) {
     #section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8 {
