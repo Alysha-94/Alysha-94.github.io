@@ -175,6 +175,9 @@ img.down2:hover{
 	#section2 p{
 		width:90%;
 	}
+    #me-picture {
+        width:200px;
+    }
 }
 @media screen and (max-width: 330px) {
 	#me-picture{
@@ -201,15 +204,18 @@ img.down2:hover{
 	margin-bottom:10px;
 	color:#476b6b;
 }
-#web-img{
-	min-width:250px;
-	max-width:650px;
+#web-img {
+    width: 50%;
+    height: auto;
+    min-width: 250px;
+    max-width: 650px;
 }
-#section3 p{
-	margin-top:10px;
-	width:50%;
-	min-width:250px;
-	max-width:650px;
+#section3 p {
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    min-width: 250px;
+    max-width: 650px;
 }
 img.down3{
 	top:290vh;
@@ -253,12 +259,15 @@ img.down3{
 	align-items: center;
 	justify-content: center;
 }
-#app img{
-	min-width:150px;
-	max-width:250px;
+#app img {
+    min-width: 150px;
+    max-width: 250px;
+    width:40%;
+    height: auto;
 }
-#app p{
-	width:60%;
+#app p {
+    width: 60%;
+    height: auto;
 }
 img.down4{
 	top:390vh;
@@ -280,9 +289,6 @@ img.down4{
 		width:60%;
 		margin-top:0px;
 	}
-	#app img{
-		max-width:150px;
-	}
 	#app p{
 		margin-top:10px;
 		width:100%;
@@ -294,18 +300,9 @@ img.down4{
 		flex-direction: column;
 		width:80%;
 	}
-	#app img{
-		min-width:125px;
-	}
 	#app p{
 		margin-top:10px;
 		width:100%;
-	}
-}
-
-@media screen and (max-width: 330px) {
-	#app img{
-	min-width:100px;
 	}
 }
 #section5 {
@@ -319,14 +316,17 @@ img.down4{
     min-width: 300px;
 }
 #game-img{
+    width:50%;
+    height:auto;
 	min-width:250px;
 	max-width:600px;
 }
-#section5 p{
-	margin-top:10px;
-	width:50%;
-	min-width:250px;
-	max-width:600px;
+#section5 p {
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    min-width: 250px;
+    max-width: 600px;
 }
 img.down5{
 	top:490vh;
