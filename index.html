@@ -17,7 +17,7 @@
         <h2>Web Developer & Designer</h2>
         <div id="links">
             <h3 class="down1" onclick="scrollToSection('2');">About</h3><div class="pixel-divider"></div>
-            <h3 class="down2" onclick="scrollToSection('3');">Folio</h3><div class="pixel-divider"></div>
+            <h3 class="down2" onclick="scrollToSection('3');">Projects</h3><div class="pixel-divider"></div>
             <h3 class="down3" onclick="scrollToSection('9');">Contact</h3>
         </div>
         <img class="down1 arrow" alt="down arrow" onclick="scrollToSection('2');" src="images/pixel-down.png" onmouseover="hoverBlue(this);" onmouseout="unHoverBlue(this);">
@@ -100,7 +100,11 @@
         <div class="padding">
             <h4 class="project-text">Tamil Learning App</h4>
             <div id="app">
-                <img id="app-img" alt="App project" src="images/app250x415.gif">
+                <img id="app-img" srcset="images/app150x250.gif 400w,
+                 images/app250x415.gif 600w"
+                     sizes="(max-width: 400px) 360px,
+                (max-width: 600px) 560px"
+                     src="images/app250x415.gif" alt="App gif">
                 <p>
                     A learning app developed in a small team to assist children with the Tamil language.
                     I implemented a canvas to allow users to trace over the word and learn to write, as well as an attached sound file to hear the word being spoken.
