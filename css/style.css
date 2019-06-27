@@ -141,6 +141,7 @@ img.down1{
 }
 #me-picture{
 	margin-top:50px;
+    height:auto;
 	min-width:175px;
 	max-width:250px;
 }
@@ -175,6 +176,9 @@ img.down2:hover{
 	#section2 p{
 		width:90%;
 	}
+    #me-picture {
+        width:200px;
+    }
 }
 @media screen and (max-width: 330px) {
 	#me-picture{
