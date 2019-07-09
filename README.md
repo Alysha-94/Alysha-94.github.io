@@ -1,5 +1,5 @@
 # My Online Portfolio
-I designed and made this static site as a way to show some of the projects I have worked on.
+A static site I designed and developed as a way to show some of the projects I have worked on.
 
 View it here: https://www.aiannetta.com
 
